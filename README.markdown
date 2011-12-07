@@ -9,7 +9,7 @@ An attempt to create a dependency injection for PHP. Current this module indepen
 - Add an Annotation @Inject("ServiceName") to dynamically assign the value of the property or object from our little IoC (Inversion of Control) Registry. 
 - Create a Registry of Services, which are loaded and can always be re-used anytime in the code using @Inject("ServiceName")
 
-This module uses [**Addendum**](http://code.google.com/p/addendum/ "Visit Addendum project website") in *BlueIgnis* for implementing @Inject style dependency injection. For normal independent usages refer **Usages Example**
+This module uses [**ARO**](https://github.com/ashwanthkumar/aro-php "Visit ARO project website") in *BlueIgnis* for implementing @Inject style dependency injection. For normal independent usages refer **Usages Example**
 
 ##  Usage Examples:
 
