@@ -92,11 +92,13 @@ class Registry implements IoC_Container {
 	 *	@throws ServiceNameAlreadyTaken If service name already exist
 	 **/
 	public function addService($name, $object, $description = "Sample Description") {
-		if(isset($this->container_array[$name])) throw new ServiceNameAlreadyTaken;
+		if(isset($this->container_array[$name])) throw new ServiceNameAlreadyTakenException;
 		else {
 			// Service can be safely added
 			$this->container_array[$name]['object'] = $object;
 			$this->container_array[$name]['description'] = $description;
+			
+			return TRUE;
 		}
 	}
 	
