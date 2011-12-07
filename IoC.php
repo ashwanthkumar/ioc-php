@@ -19,7 +19,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $ioc_module_path);
 require_once("IoC_Container.php");
 
 // Include the Exception classes
-require_once("IoC_Exceptions/ServiceNameAlreadyTaken.php");
+require_once("IoC_Exceptions/ServiceNameAlreadyTakenException.php");
 require_once("IoC_Exceptions/ServiceNotFoundException.php");
 
 // Include the IoC Implementation, currently called Registry
