@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # IoC (Inversion of Control) Module of BlueIgnis
 #### Written by Ashwanth Kumar \<ashwanth@ashwanthkumar.in\>
 #### Version 0.1
